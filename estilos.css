@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/08/fondos-pantalla-full-hd_6.jpg?itok=UA_2-r1t');
+    background-position: center;
+    background-size: 100%;
+}    
+
+.formulario{
+    width: 400px;
+    background: gray; ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: black;
+    box-shadow: 7px 13px 37px black;
+}
+.formulario h1{
+    font-size: 22px;
+margin-bottom: 0px;
+}
+::-webkit-input-placeholder { 
+    color: black; 
+} 
+.controls{
+    width: 100%;
+    background-color: #f6fff8;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: "calibri";
+    font-size: 18px;
+    color:black;
+}
+.formulario p {
+    height: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 10px ;
+}
+.formulario a {
+    color:#f6fff8;
+    text-decoration: none;
+}
+.formulario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.formulario .botones {
+    width: 100%;
+    background: #6b9080;
+    border: none;
+    padding: 10px;
+    color: black;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.formulario .botones {
+    width: 100%;
+    background: #6b9080;
+    border: none;
+    padding: 10px;
+    color: #f6fff8;
+    margin: 10px 0;
+    font-size: 16px;
+}
